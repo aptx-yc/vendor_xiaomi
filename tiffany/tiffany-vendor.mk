@@ -1,5 +1,4 @@
 # Copyright (C) 2017-2020 The LineageOS Project
-# Copyright (C) 2017-2020 The PixelExperience Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,23 +18,23 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/tiffany
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/camera_config.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/csidtg_camera.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/csidtg_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/ov12a10_arc_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov12a10_arc_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/ov12a10_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov12a10_arc_ofilm_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/ov12a10_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov12a10_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/ov13880_arc_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13880_arc_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/ov13880_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13880_arc_ofilm_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/ov13880_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13880_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov5675_qtech_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/tiffany/proprietary/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gf_fingerprint.default.so \
-    vendor/xiaomi/tiffany/proprietary/lib64/libgf_algo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgf_algo.so \
-    vendor/xiaomi/tiffany/proprietary/lib64/libgf_ca.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgf_ca.so \
-    vendor/xiaomi/tiffany/proprietary/lib64/libgf_hal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgf_hal.so \
-    vendor/xiaomi/tiffany/proprietary/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgoodixfingerprintd_binder.so \
-    vendor/xiaomi/tiffany/proprietary/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsoftkeymaster.so \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/ov12a10_arc_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_arc_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/ov12a10_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_arc_ofilm_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/ov13880_arc_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_arc_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/ov13880_arc_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_arc_ofilm_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/ov13880_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13880_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5675_qtech_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/etc/camera/s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_ofilm_chromatix.xml \
+    vendor/xiaomi/tiffany/proprietary/vendor/lib64/hw/gf_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gf_fingerprint.default.so \
+    vendor/xiaomi/tiffany/proprietary/vendor/lib64/libgf_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_algo.so \
+    vendor/xiaomi/tiffany/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/xiaomi/tiffany/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
+    vendor/xiaomi/tiffany/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
+    vendor/xiaomi/tiffany/proprietary/vendor/lib64/libsoftkeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymaster.so \
     vendor/xiaomi/tiffany/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/tiffany/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/xiaomi/tiffany/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
